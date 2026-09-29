@@ -1,0 +1,32 @@
+#EXTM3U
+# Heimdall Player — demo / test playlist for reviewers.
+# Only public test streams and Creative Commons films:
+#   - Apple, Mux and Akamai HLS test streams (published for testing players)
+#   - Blender Foundation open movies (CC BY 3.0 / CC BY 4.0), via archive.org and download.blender.org
+#   - Posters: Wikimedia Commons (CC BY), Blender Foundation
+#EXTINF:-1 tvg-id="demo.apple.bipbop" tvg-logo="" group-title="Demo – Test Channels",Apple BipBop (HLS test)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 tvg-id="demo.apple.bipbop.ts" tvg-logo="" group-title="Demo – Test Channels",Apple BipBop 16:9 (HLS test)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+#EXTINF:-1 tvg-id="demo.akamai.live" tvg-logo="" group-title="Demo – Test Channels",Akamai Live Test (HLS)
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:-1 tvg-id="demo.mux.bbb" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg" group-title="Demo – Open Movie Channels",Big Buck Bunny Channel (HLS)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="demo.mux.tos" tvg-logo="" group-title="Demo – Open Movie Channels",Tears of Steel Channel (HLS)
+https://test-streams.mux.dev/tos_ismc/main.m3u8
+#EXTINF:-1 tvg-id="demo.mux.test" tvg-logo="" group-title="Demo – Open Movie Channels",Mux Test Stream (HLS)
+https://test-streams.mux.dev/test_001/stream.m3u8
+#EXTINF:596 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg" group-title="Open Movies",Big Buck Bunny (2008)
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+#EXTINF:653 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Sintel_poster.jpg" group-title="Open Movies",Sintel (2010)
+https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4
+#EXTINF:654 tvg-logo="" group-title="Open Movies",Elephants Dream (2006)
+https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
+#EXTINF:734 tvg-logo="" group-title="Open Movies",Tears of Steel (2012)
+https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
+#EXTINF:52 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Sintel_poster.jpg" group-title="Open Movie Shorts",Blender Open Movies S01E01 Sintel Trailer
+https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4
+#EXTINF:596 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg" group-title="Open Movie Shorts",Blender Open Movies S01E02 Big Buck Bunny
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+#EXTINF:654 tvg-logo="" group-title="Open Movie Shorts",Blender Open Movies S01E03 Elephants Dream
+https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
